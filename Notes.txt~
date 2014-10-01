@@ -1,0 +1,31 @@
+dd-wrt-alarm
+192.168.10.10
+same password as other routers
+connects to internet okay
+can't get 'ls' commands to work
+
+http://wcsg.org/closings/school/?county=Kent
+
+
+gpio disable 2 (white on)
+gpio disable 3 (red on)
+
+enable - turns the LED off / disbale turns on
+
+wget - pipe to grep and check results conditional
+
+if wget -qO- wcsg.org/closings/school/?county=Kent | fgrep -q "Rockford" ; then
+	gpio disable 3
+else
+	gpio enable 3
+fi
+
+Pin	Direction	Name		Use
+GPIO 0	Output	WLAN  LED  	(LED - wireless)
+GPIO 1	Output	POWER LED	(LED - power)
+GPIO 2	Output	ADM_EECS   	(LED - white, Cisco button v. 3.0+)
+GPIO 3	Output	ADM_EESK  	(LED - amber, Cisco button v. 3.0+)
+GPIO 4	Input		ADM_EEDO  	(Button - Cisco Button v. 3.0+)
+GPIO 5	Output	ADM_EEDI    	(Unknown) Seems to cycle all LED colors disabled.
+GPIO 6	Input		RESET		(Button - reset button)
+GPIO 7	Output	DMZ LED		(LED - DMZ)

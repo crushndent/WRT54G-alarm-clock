@@ -1,0 +1,212 @@
+#content {
+  border: 0px solid #f00;
+  width: 720px;
+  margin: 10px;
+  float: left;
+  padding: 0;
+  background: #f8efe8 url('/graphics/main_content_back2.png');
+}
+
+#content_top {
+  width: 720px;
+  height: 14px;
+  background-image: url('/graphics/main_content_top2.png');
+  background-repeat: no-repeat;
+}
+
+#content_main {
+  min-height: 300px;
+  padding: 5px 20px;
+}
+
+#content_bottom {
+  width: 720px;
+  height: 14px;
+  background-image: url('/graphics/main_content_bot2.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+#sidebar {
+  float: left;
+  margin: 10px 0 0 0;
+  width: 230px;
+  background: #f8efe8 url('/graphics/sidebar_back2.png');
+}
+
+#sidebar h3.button a {
+  display: block;
+  font-size: 16px;
+  background-color: #b45b10;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 10px 3px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f8efe8;
+}
+
+#sidebar ul {
+  margin: 0 0 10px 7px;
+}
+
+#sidebar dt {
+  font-weight: bold;
+}
+
+#sidebar dd {
+  margin-bottom: 10px;
+}
+
+#sidebar_top {
+  width: 230px;
+  height: 14px;
+  background-image: url('/graphics/sidebar_top2.png');
+  background-repeat: no-repeat;
+}
+
+#sidebar_main {
+  min-height: 300px;
+  padding: 5px 20px;
+}
+
+#sidebar_bottom {
+  width: 230px;
+  height: 14px;
+  background-image: url('/graphics/sidebar_bot2.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+/****************************************
+* Random content styles
+****************************************/
+
+.musiclisting {
+  padding: 3px;
+  width: 130px;
+  text-align: center;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.musiclisting p {
+  margin: 0 0 5px 0;
+}
+
+.address {
+  white-space: pre;
+}
+
+h4.directions {
+  margin-bottom: 10px;
+}
+
+#directions input.state {
+  margin-right: 32px;
+}
+
+#directions input.city {
+  display: block;
+}
+
+#directions input.submit {
+  display: block;
+}
+
+#directions input {
+  margin-bottom: 10px;
+}
+
+#directions label {
+  margin-bottom: 5px;
+}
+
+/* VIP Club Card Form */
+
+#vip_signup fieldset {
+  width: 480px;
+}
+
+#vip_signup input[type="text"] {
+  height: 18px;
+  width: 200px;
+}
+
+#vip_signup input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+#vip_signup select {
+  display: block;
+}
+
+#vip_signup select[name="birthmonth"],
+#vip_signup select[name="birthday"] {
+  display: inline;
+}
+
+#vip_signup input#birthyear {
+  display: inline;
+  clear: left;
+  width: 40px;
+}
+
+#vip_signup input.state,
+#vip_signup input.zip {
+  display: block;
+}
+
+#vip_signup input.state {
+  width: 24px;
+}
+
+#vip_signup input.zip {
+  width: 44px;
+}
+
+#vip_signup input#email {
+  display: block;
+}
+
+#vip_signup input#phone {
+  display: inline;
+  width: 30px;
+}
+
+#vip_signup input#phone2 {
+  display: inline;
+  width: 40px;
+}
+
+#vip_signup input.submit {
+  font-size: 16px;
+  padding: 2px 4px;
+}
+
+#vip_signup label {
+  display: block;
+  float: left;
+  clear: both;
+  width: 134px;
+  line-height: 18px;
+  margin: 0 10px 16px 0;
+  padding: 0;
+  text-align: right;
+}
+
+#vip_signup label:after {
+  content: ":";
+}
+
+#vip_signup label.wide {
+  display: inline;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#vip_signup label.wide:after {
+  content: none;
+}

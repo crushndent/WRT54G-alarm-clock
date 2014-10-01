@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+img {
+  border: none;
+}
+
+@font-face {
+    font-family: 'jrhand Regular';
+    src: url('/fonts/jrha___.eot');
+    src: local('jrhand Regular'), local('Jrhand'),
+        url('/fonts/jrha___.woff') format('woff'),
+        url('/fonts/jrha___.svg#Jrhand') format('svg'),
+        url('/fonts/jrha___.ttf') format('truetype');
+}
+
+:focus {
+  outline: 0;
+}
+
+*{margin:0; padding:0}
+
+
+.none {
+  display: none;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+a {
+  color: #266b95;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #266b95;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p, blockquote {
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 1px;
+  margin: 16px 0;
+}
+
+ul, ol {
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+ul.bare {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#content_main li, #sidebar li {
+  line-height:16px;
+  list-style-position:outside;
+  list-style-image:url('/graphics/bullet_arrow.gif');
+}
+
+h2 {
+	font-size: 21px;
+	line-height: 30px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h3.button {
+  float: left; 
+  margin: 0 10px 0 0;
+}
+
+h3.button a {
+  font-size: 14px;
+  display: block;
+  margin: 5px 0 10px 0;
+  padding: 0;
+  background-color: #246e9e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  border-top: 1px solid #EFDED1;
+  border-left: 1px solid #EFDED1;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+h3.button a:active {
+  -moz-box-shadow:inset 0px 0px 5px #000;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #EFDED1;
+  border-bottom: 1px solid #EFDED1;
+}
+
+h4 {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+p.small {
+  font-size:11px;
+}
+
+.clear {
+  clear: both;
+}
+
+.noborder {
+  border:none;
+}
+
+.left {
+  float:left;
+  margin-right: 20px;
+}
+
+.right {
+  float: right;
+  margin-left: 20px;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bigger {
+  font-size: 14px;
+}
+
+/*******************************
+* Form stuff
+*******************************/
+label.inline {
+  display: inline;
+}
+
+input[type="text"], textarea {
+  margin-bottom: 16px;
+}
+
+input.block {
+  display: block;
+  width: 280px;
+  margin-bottom: 16px;
+}
+
+input.block[type="submit"] {
+  width: auto;
+}
+
+textarea.wide {
+    width: 600px;
+}
+
+input.small {
+  width: 100px;
+}
+
+input.state {
+  width: 30px;
+}
+
+input.zip {
+  width: 50px;
+  margin-right: 20px;
+}
+
+input.submit {
+  width: auto;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+input.reset {
+  width: auto;
+}
+
+input.radio {
+  display: inline;
+}
+
+input.checkbox {
+  margin-bottom: 16px;
+}
+
+input.phone_1, input.phone_2 {
+  display: inline;
+}
+
+input.phone_1 {
+  width: 34px;
+}
+
+input.phone_2 {
+  width: 54px;
+}
+
+select {
+  margin-bottom: 16px;
+}
+
+address {
+  font-style: normal;
+  white-space: pre;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: #f00;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+fieldset {
+  width:500px;
+  padding:15px;
+  margin-bottom: 10px;
+  border:1px solid #000;
+}
+
+label {
+  display:block;
+  margin: 0 0 10px 0;
+}
+
+legend {
+  font-size:18px;
+  font-weight:bold;
+  padding:5px;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+optgroup {
+  padding-bottom: 20px;
+}
+
+optgroup option {
+  padding-left: 20px;
+}
+
+option {
+  min-width: 22px;
+}
+
+/* Form Feedback */
+
+.form_error {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9bfba;
+  border: 1px solid #ff0000;
+}
+
+.form_error ul li {
+  list-style-image: none !important;
+}
+
+.form_success {
+  padding: 10px 10px 0 10px;
+  background-color: #c6f2ba;
+  border: 1px solid #01af00;
+}

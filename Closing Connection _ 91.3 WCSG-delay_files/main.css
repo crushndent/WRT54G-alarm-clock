@@ -1,0 +1,343 @@
+body {
+  background: #303030 url('/graphics/bg_top.png') repeat-x;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*****************************************
+* Header stuff
+*****************************************/
+
+#header {
+  position: relative;
+  margin: 38px auto 0 auto;
+  background-image: url('/graphics/wcsg_header_4.jpg');
+  width: 975px;
+  height: 188px;
+}
+
+#header h1 a {
+  display: block;
+  width: 270px;
+  height: 100px;
+  border: 0px solid #f00;
+  text-indent: -100000px;
+}
+
+#header h2 {
+  text-indent: -100000px;
+}
+
+#header h3#listen_live {
+  top: 5px;
+  right: 30px;
+  position: absolute;
+}
+
+#header h3#listen_live a {
+  display: block;
+  color: #00b5cb;
+  padding: 5px 5px 5px 5px;
+  width: 140px;
+  text-transform: uppercase;
+}
+
+#header #main_menu ul {
+  list-style-type: none;
+  position: absolute;
+  top: 76px;
+  left: 90px;
+}
+
+#header #main_menu ul li {
+  position: relative;
+  float: left;
+  margin-right: 4px;
+}
+
+#header #main_menu ul li a {
+  width: 100px;
+  height: 42px;
+  display: block;
+  text-indent: -100000px;
+}
+
+#header #main_menu ul li a:hover {
+  background-color: #fff;
+  opacity:.30;
+  filter:alpha(opacity=30);
+}
+
+/*****************************************
+* Closings Header
+*****************************************/
+
+#closings_flag {
+  position: absolute;
+  bottom: 36px;
+  margin: 0 0 0px 16px;
+  width: auto;
+  background-image: url('/graphics/closings_raindrops.gif');
+  background-repeat: no-repeat;
+  height: 39px;
+  z-index: 0;
+}
+
+#closings_flag a {
+  color: #f69a00;
+  font-size: 14px;
+  display: block;
+  text-indent: 34px;
+  text-transform:uppercase;
+  margin-top: 14px;
+  padding-top: 10px;
+}
+
+/*****************************************
+* Now Playing stuff
+*****************************************/
+
+#now_playing {
+  color: #fff;
+  width: 450px;
+  position: absolute;
+  right: 40px;
+  top: 44px;
+  text-align: right;
+}
+
+#now_playing a {
+  color: #fff;
+}
+
+#now_playing h4 {
+  display: inline;
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+#now_playing ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  font-size: 11px;
+}
+
+/*****************************************
+* Search form stuff
+*****************************************/
+
+#search_form {
+  width: 199px;
+  position: absolute;
+  top: 130px;
+  right: 30px;
+  font-size: 10px;
+}
+
+#search_form input {
+  width: 160px;
+  float: left;
+  margin: 0 5px 0 0;
+  border-color: #357196;
+}
+
+#search_form input.submit {
+  width: auto;
+  margin-right: 0;
+  background-color: #357196;
+  border-color: #357196;
+  color: #fff;
+}
+
+/*****************************************
+* Submenu stuff
+*****************************************/
+
+#header #main_menu ul li .submenu {
+  display: none;
+  z-index: 101;
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  background-color: #77c8da;
+  border: 1px solid #0b5f8e;
+  width: 160px;
+  height: auto;
+  background-image: url('/graphics/submenu_back.gif');
+}
+
+#header #main_menu ul li:hover .submenu {
+  display: block;
+  background-color: #fff;
+  opacity:.90 !important;
+  filter:alpha(opacity=90);
+}
+
+#header #main_menu ul li .submenu ul {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+}
+
+#header #main_menu ul li div.submenu ul li  {
+  float: none;
+  width: 160px;
+  text-indent: 0;
+}
+
+#header #main_menu ul li div.submenu ul li a {
+  display: block;
+  width: 140px;
+  height: auto;
+  margin: 0 0 0 -12px;
+  padding: 10px;
+  color: #fff;
+  background-color: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-indent: 0;
+  text-align: right;
+}
+
+#header #main_menu ul li div.submenu ul li a:hover {
+  width: 140px;
+  color: #250858;
+  text-decoration: none;
+}
+
+
+/*****************************************
+* News
+*****************************************/
+
+#newsticker_ol li.first {
+  font-weight: bold;
+}
+
+#newsticker_ol li {
+  margin-right: 20px;
+}
+
+#newsticker_ol li a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+
+/*****************************************
+* Footer content
+*****************************************/
+#footer {
+  clear: both;
+  margin: 10px 5px 20px 12px;
+  color: #fff;
+  font-size: 10px;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer h6#curadio-logo a {
+  display: block;
+  float: left;
+  width: 141px;
+  height: 31px;
+  margin: 0 0 20px;
+  border: 0px solid #fff;
+  background-image: url('/graphics/cu_logo.png');
+  text-indent: -100000px;
+}
+
+#footer h6#app-icon a {
+  display: block;
+  float: left;
+  width: 101px;
+  height: 34px;
+  margin: 0 0 20px 17px;
+  border: none;
+  background: url(/graphics/app-store-black.png) no-repeat;
+  text-indent: -100000px;
+}
+
+#footer h6#android-icon a {
+  display: block;
+  float: left;
+  width: 101px;
+  height: 34px;
+  margin: 0 0 20px 17px;
+  border: none;
+  background: url(/graphics/android-black.png) no-repeat;
+  text-indent: -100000px;
+}
+
+#footer h6#facebook-icon a {
+  display: block;
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin: 0 0 20px 17px;
+  border: none;
+  background: url(/graphics/facebook-color.png) no-repeat;
+  text-indent: -100000px;
+}
+
+#footer h6#twitter-icon a {
+  display: block;
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin: 0 0 20px 17px;
+  border: none;
+  background: url(/graphics/twitter-color.png) no-repeat;
+  text-indent: -100000px;
+}
+
+#footer ul {
+  list-style-type: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+#footer ul li {
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #fff;
+}
+
+#footer ul li.first {
+  padding-left: 3px;
+}
+
+#footer ul li.last {
+  border: 0;
+}
+
+/*****************************************
+* Video content
+*****************************************/
+
+.video_list {
+  list-style-type: none;
+  margin: 14px 0 0 04px;
+  padding: 0;
+}
+
+.video_list li {
+  float: left;
+  margin: 0 3px;
+}
+
+.video_list li img {
+  border: 1px solid #ccc;
+}
